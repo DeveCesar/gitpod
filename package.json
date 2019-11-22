@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/DeveCesar/gitpod/issues"
   },
-  "homepage": "https://github.com/DeveCesar/gitpod#readme"
+  "homepage": "https://github.com/DeveCesar/gitpod#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
 }
